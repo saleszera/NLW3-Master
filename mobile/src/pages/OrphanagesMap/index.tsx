@@ -11,7 +11,6 @@ const OrphanagesMap = () => {
   const handleNavigateToOrphanagesDetails = () => {
     navigation.navigate('OrphanagesDetails');
   }
-
   return (
     <View style={styles.container}>
       <MapView
