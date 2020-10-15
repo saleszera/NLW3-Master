@@ -33,7 +33,8 @@
 
  ## Back-end da aplicação:
 ```bash
-# Na raiz da pasta clonada, acesse a pastar server com o comando 'cd server' e instale as dependências com o comando:
+# Na raiz da pasta clonada, acesse a pastar server com o comando 'cd server' e instale 
+# as dependências com o comando:
 
 $ yarn
   
@@ -46,7 +47,8 @@ $ yarn dev
 
 ## Front-end da aplicação:
 ```bash
-# Acesse a pasta web dentro do diretório clonado com 'cd web' e instale as dependências com o comando:
+# Acesse a pasta web dentro do diretório clonado com 'cd web' e instale as dependências 
+# com o comando:
  
 $ yarn
 
