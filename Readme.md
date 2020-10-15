@@ -31,6 +31,18 @@
 
  ```
 
+ ## Back-end da aplicação:
+```bash
+# Na raiz da pasta clonada, acesse a pastar server com o comando 'cd server' e instale as dependências com o comando:
+
+$ yarn
+  
+# Para iniciar o servidor, rode o comando:
+
+$ yarn dev
+
+```
+
 
 ## Front-end da aplicação:
 ```bash
@@ -42,3 +54,4 @@ $ yarn
 
 $ yarn start
 ```
+
