@@ -92,7 +92,7 @@ form.create-orphanage-form .input-block textarea {
 form.create-orphanage-form .input-block .images-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 16;
+  grid-gap: 16px;
 
 }
 
@@ -101,6 +101,7 @@ form.create-orphanage-form .input-block .images-container img {
   height: 96px;
   object-fit: cover;
   border-radius: 20px;
+  
 }
 
 form.create-orphanage-form .input-block .images-container .new-image {
