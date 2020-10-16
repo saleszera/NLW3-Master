@@ -16,7 +16,12 @@
 
 
 <div>
-  <img src="https://ik.imagekit.io/hld13bjzb1/Peek_12-10-2020_13-25_gzALBi_5D.gif?tr=w-1200,h-675,fo-auto" alt="Happy Demo" height="425">
+  <img src="/preview/happy-preview.gif" alt="Happy Demo" height="485">
+</div>
+<br/>
+
+<div>
+  <img src="preview/Captura de tela de 2020-10-15 21-48-54.png" alt="Happy Demo" height="425">
 </div>
 <br/>
 
