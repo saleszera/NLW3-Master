@@ -4,16 +4,32 @@
 <h1 align="center">
   <img alt="Fastfeet" title="Fastfeet" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
 </h1>      
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
    
-😁 A Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.
-
 <p align="center"> 
-  <a href="https://rocketseat.com.br">   
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
-  </a>
-  
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">  
 
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Expo](https://expo.io/)
+- [Sqlite](https://www.sqlite.org/index.html)
+
+## 💻 Projeto
+
+😁 A Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
 
 <div>
   <img src="/preview/happy-preview.gif" alt="Happy Demo" height="485">
@@ -25,7 +41,7 @@
 </div>
 <br/>
 
-# Para testar a aplicação:
+## Para testar a aplicação:
 
 
 
@@ -61,4 +77,12 @@ $ yarn
 
 $ yarn start
 ```
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by Rocketseat e aprimorado com 💜 por Thiago Alves.
 
