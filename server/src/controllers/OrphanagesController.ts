@@ -1,16 +1,17 @@
-import { Request, Response } from "express";
-import { getRepository } from "typeorm";
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import { Request, Response } from 'express';
+import { getRepository } from 'typeorm';
 
-import Orphanage from "../models/Orphanage";
-import orphanagesView from "../views/orphanages..view";
-import * as Yup from "yup";
+import * as Yup from 'yup';
+import Orphanage from '../models/Orphanage';
+import orphanagesView from '../views/orphanages..view';
 
 export default {
   async index(req: Request, res: Response) {
     const orpharnagesRepository = getRepository(Orphanage);
 
     const orphanages = await orpharnagesRepository.find({
-      relations: ["images"],
+      relations: ['images'],
     });
 
     return res.json(orphanagesView.renderMany(orphanages));
@@ -22,7 +23,7 @@ export default {
     const orpharnagesRepository = getRepository(Orphanage);
 
     const orphanage = await orpharnagesRepository.findOneOrFail(id, {
-      relations: ["images"],
+      relations: ['images'],
     });
 
     return res.json(orphanagesView.render(orphanage));
@@ -43,9 +44,7 @@ export default {
 
     const requestImages = req.files as Express.Multer.File[]; // Array de arquivos do multer
 
-    const images = requestImages.map((image) => {
-      return { path: image.filename };
-    });
+    const images = requestImages.map(image => ({ path: image.filename }));
 
     const data = {
       name,
@@ -69,7 +68,7 @@ export default {
       images: Yup.array(
         Yup.object().shape({
           path: Yup.string().required(),
-        })
+        }),
       ),
     });
 
