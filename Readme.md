@@ -15,8 +15,9 @@
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
   <img alt="Made by" src="https://img.shields.io/static/v1?label=made_by&message=Rocketseat&color=15C3D6&labelColor=000000">
+  <img alt="Made by" src="https://img.shields.io/static/v1?label=Node-v12.18.14&message=Rocketseat&color=15C3D6&labelColor=000000">
   
-   <img src="https://img.shields.io/badge/Node-v12.18.14-black?color=15C3D6&labelColor=000000=flat" alt="Node" /> 
+
 </p>
 
 ## 🚀 Tecnologias
